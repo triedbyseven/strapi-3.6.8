@@ -1,0 +1,39 @@
+{
+  "name": "orijinator-platformless-chat",
+  "version": "1.0.0",
+  "description": "A platformless communications application for Strapi.",
+  "strapi": {
+    "name": "ORIJINATOR® Platformless Chat",
+    "icon": "plug",
+    "description": "A platformless communications application for Strapi."
+  },
+  "author": {
+    "name": "ORIJINATOR LLC",
+    "email": "software@orijinator.com",
+    "url": "https://orijinator.com"
+  },
+  "maintainers": [
+    {
+      "name": "ORIJINATOR LLC",
+      "email": "software@orijinator.com",
+      "url": "https://orijinator.com"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.7",
+    "@twilio/conversations": "^1.2.3",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.5.1",
+    "uuid": "^8.3.2"
+  }
+}

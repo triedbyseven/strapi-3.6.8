@@ -1,0 +1,9 @@
+const GRAPHQL_ENDPOINT = 'https://h4vdkljwoc.execute-api.us-west-2.amazonaws.com/dev/graphql';
+const ORIJINATOR_ACCOUNT_ID = 'OAC8D9AF34736F34EEE84A4889620FA47E8';
+const ORIJINATOR_NAME_OF_PROVIDER = 'The Divine Med Spa';
+
+export {
+  GRAPHQL_ENDPOINT,
+  ORIJINATOR_ACCOUNT_ID,
+  ORIJINATOR_NAME_OF_PROVIDER
+};
