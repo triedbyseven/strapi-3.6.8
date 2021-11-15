@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', 'terraform-20210609192850651500000001.cn54kpapt4jy.us-west-1.rds.amazonaws.com'),
+        host: env('DATABASE_HOST', 'thedivinemedspa-db.cn54kpapt4jy.us-west-1.rds.amazonaws.com'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'strapiheadlessdb'),
         username: env('DATABASE_USERNAME', 'main'),
